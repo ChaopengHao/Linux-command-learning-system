@@ -1,4 +1,2 @@
-{ "question1" : [
-{"number":1,"有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令（）\n
-       A.cat           B. more          C. less           D. menu"}
-]}
+[{"number":1, "question":"有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令（）\n
+       A.cat           B. more          C. less           D. menu","answer":'C'}]

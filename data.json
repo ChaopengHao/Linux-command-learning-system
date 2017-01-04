@@ -1,0 +1,199 @@
+{"questions": [{"question": "有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令（）
+       A.cat           B. more          C. less           D. menu", "answer": "C"},
+        {"question": " Linux的发展始于（）年，它是有（）的一名大学生开发的
+       A.1990、芬兰   B.1991、芬兰   C.1993、美国    D.1991、波兰", "answer": "A"},
+        {"question": "内核不包括的子系统是（）
+       A.进程管理系统    B.内存管理系统    C.I/O管理系统     D.硬件管理系统", "answer": "D"},
+       {"question": " Linux 中权限最大的账户是（）
+       A. admin     B. root     C. guest    D. super ", "answer": "B"},
+       {"question": "在通常情况下，登录Linux 桌面环境，需要（）
+       A．任意一个帐户    B．有效合法的用户帐号和密码   C．任意一个登录密码      D．本机IP 地址", "answer": "B"},
+       {"question": "配置网卡时，下面哪一项一般不需要配置（）
+       A.IP地址       B.子网掩码      C.默认网关地址        D.MA地址", "answer": "D"},
+       {"question": " Linux文件权限中保存了（）信息
+       A.文件所有者的权限     B.文件所有者所在组的权限     
+       C.其他用户的权限       D.以上都包括", "answer": "D"},
+       {"question": " Linux文件系统的文件都按其作用分门别类地放在相关的目录中，对于外部设备文件，一般应将其放在（）目录中。
+       A./bin            B./etc         C./dev      D./lib ", "answer": "C"},
+       {"question": "某文件的组外成员的权限为只读；所有者有全部权限；组内的权限为读与写，则该文件的权限为（）
+       A. 467           B. 674          C. 476      D. 764", "answer": "D"},
+       {"question": "文件exer1的访问权限为rw-r--r--，现要增加所有用户的执行权限和同组用户的写权限，下列命令正确的是（）
+       A. chmod a+x g+w exer1     B. chmod 765 exer1 
+       C. chmod o+x exer1         D. chmod g+w exer1", "answer": "A"},
+       {"question": "当前安装Linux的主机中位于第二个IDE接口的master接口挂接一块40GB的硬盘，其在Linux中的设备文件名为（）
+       A./dev/had    B./dev/hdb     C./dev/hdc      D./dev/hdd ", "answer": "B"},
+        {"question": "有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令（）
+       A.cat           B. more          C. less           D. menu", "answer": "A"},
+       {"question": "在redhat Linux系统中，下列哪个命令可以用来将分区挂载到目录：（）
+       A.fdisk          B. mkfs     C.tune2fs       D.mount ", "answer": "A"},
+       {"question": "在redhat Linux系统中，下列哪个命令可以用来激活服务的不同运行级别：（）
+       A.active     B. make   C.turn         D.chkconfig ", "answer": "D"},
+       {"question": "在redhat Linux系统中，所有文件系统的挂载信息存放在哪个配置文件中：（）
+       A./etc/passwd   B./etc/modules.conf      C./etc/inittab   D. /etc/fstab ", "answer": "D"},
+       {"question": "在redhat Linux系统中，硬件驱动程序配置信息存放在那个配置文件中：（）
+       A./etc/passwd    B. /etc/fstab   C/etc/modules.conf      D./etc/inittab ", "answer": "C"},
+         {"question": "在redhat Linux系统中，下列哪个命令可以用来查看kernel版本信息：（）
+       A.check          B. ls kernel    C.kernel        D.uname ", "answer": "D"},
+       {"question": "将Windows C:盘(hda1)安装在Linux文件系统的/winsys目录下，命令是（）
+       A.mount  dev/had1  /winsys   B. mount  /dev/had1  /winsys
+       C.mount  /dev/had1  winsys   D.mount  dev/had1  winsys", "answer": "B"},
+       {"question": "哪一个是终止一个前台进程可能用到的命令和操作:（）
+       A.kill      B.<Ctrl>+c        C.shut down          D.halt ", "answer": "B"},
+       {"question": "第二个IDE接口主硬盘的第一个分区的标识为（）
+       A./dev/hda5  B./dev/hda1   C./dev/hdb1  D./dev/hdc5 ", "answer": "C"},
+       {"question": "若一台计算机的内存为128M，则交换分区的大小一般设为（）
+       A．64MB     B．128MB          C．256MB        D．512MB ", "answer": "C"},
+       {"question": "有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令（）
+       A.cat           B. more          C. less           D. menu", "answer": "A"},
+       {"question": " DHCP是动态主机配置协议的简称，其作用是可以使网络管理员通过一台服务器来管理一个网络系统，自动地为一个网络中的主机分配（）地址。
+       A.网络         B.MAC       C.DNS        D.IP ", "answer": "D"},
+       {"question": "检查DNS服务器的配置文件的命令有（）
+       A.named-checkconf    B.named-checkzone    C.nslookup     D.checkdns ", "answer": "C"},
+       {"question": "启动DNS服务器的命令是（）
+       A．service bind restart    B．service bind start   C．service named start     D．server named start ", "answer": "C"},
+       {"question": "检验DNS服务器配置是否成功，解析是否正确，最好采用（）
+       A．ping    B．netstat    C．ps—aux l bind    D．nslookup ", "answer": "D"},
+       {"question": "用ftp进行文件传输时，有两种模式：（）
+       A.Word和binary  B.txt和Word Document   C.ASCII和binary D.ASCII和Rich Text Format ", "answer": "D"},
+         {"question": " Samba服务器的配置文件是（）
+       A.httpd.conf  B.netd.conf  C.rc.samba   D.smb.conf ", "answer": "D"},
+       {"question": "有三个查看文件的命令，若希望在查看文件内容过程中可以用光标上下移动来查看文件内容，应使用命令（）
+       A.cat           B. more          C. less           D. menu", "answer": "A"},
+       {"question": "在DNS配置文件中，用于表示某主机别名的是：（）
+       A.NS       B.CNAME       C.NAME       D.CN ", "answer": "B"},
+       {"question": " Samba服务器的进程由( B   )两部分组成（）
+       A.named和sendmail    B.smbd和nmbd   C.bootp和dhcpd    D  httpd和squid ", "answer": "B"},
+       {"question": " DNS域名系统主要负责主机名到( )的解析
+       A．IP地址   B.MAC地址   C．网络地址   D．主机别名", "answer": "A"},
+     {"question": " Apache服务器是（）
+       A．DNS服务器    B．Web服务器    C．FTP服务器    D．Sendmail服务器", "answer": "B"},
+       {"question": "设置Apache服务器主目录的路径是（）
+       A.DocentROt       B.Serroot    C.DocumentRoot    D.serverAdmin ", "answer": "D"},
+       {"question": "Apache服务器默认的监听连接端口号是（）
+       A. 1024      B. 800        C. 80         D. 8", "answer": "C"},
+       {"question": "若Linux用户需要将FTP默认的21号端口修改为8800，可以修改 （） 配置文件。
+       A．/etc/vsftpd/userconf    B．/etc/vsftpd/vsftpd.conf   C．/etc/resolv.conf        D./etc/hosts ", "answer": "B"},
+       {"question": "下面说法错误的是（）
+       A.Linux操作系统不限制应用程序可用内存的大小
+       B.Linux操作系统是免费软件，可以通过网络下载。 
+       C.Linux操作系统部分符合UNIX标准，可以将Linux上完成的程序经过重新修改后移植到UNIX主机上运行。
+       D.Linux操作系统支持多用户，在同一时间可以有多个用户使用主机 ", "answer": "D"},
+       {"question": "在Linux中，当root密码丢失后，应该：（）
+       A.使用软盘启动直接进入系统
+       B.进入单用户模式后修改root密码
+       C.进入系统维护模式后修改root密码
+       D.重新安装系统", "answer": "D"},
+       {"question": " LINUX操作系统是一种（）
+       A.单用户单进程系统     B.多用户单进程系统
+       C.单用户多进程系统     D.多用户多进程系统", "answer": "D"},
+       {"question": "台风是哪种Linux发行版的标志（）
+       A.Suse   B.Debian    C.Redhat    D.Freebsd ", "answer": "B"},
+       {"question": "绿色的蜥蜴是哪种Linux发行版的标志（）
+       A.Suse       B.Redhat    C.Freebsd       D.Debian ", "answer": "A"},
+       {"question": " Linux的吉祥物是（）
+       A.一个手持叉子的红色小恶魔   B.一个绿色的蜥蜴  C.一个企鹅   D.一顶红色帽子", "answer": "D"},
+       {"question":" Mozilla FireFox是一款什么软件？（）
+       A.即时通讯工具 B.网络浏览器     C.媒体播放器 D.游戏", "answer": "B"},
+       {"question": " Linus.Torvalds的国籍是（）
+       A、芬兰     B、日本        C、印度        D、美国", "answer": "A"},
+       {"question": "下面的操作系统中，不属于网络操作系统的是（）
+       A、Netware    B、UNIX     C、Windows NT  D、DOS", "answer": "D"},
+       {"question": "用'useradd std'命令添加一个用户，这个用户的主目录是什么?（）
+       A、/etc/std　　 B、/var/std  C、/home/std　　D、/bin/std ", "answer": "C"},
+       {"question": "显示一个文件最后几行的命令是（）
+       A、last        B、tail         C、rear         D、tac ", "answer": "D"},
+       {"question": "在ps命令什么参数是用来显示所有用户的进程的（）
+       A、x           B、b            C、u            D、 a ", "answer": "D"},
+       {"question": "在一行结束位置加上什么符号，表示未结束，下一行继续（）
+       A、/           B、;             C、\\           D、 |", "answer": "C"},
+       {"question": "如何删除一个非空子目录/tmp（）
+       A、del /tmp/*    B、rm -rf /tmp   C、rm -Ra /tmp/*  D、 rm -rf /tmp/*", "answer": "B"},
+       {"question": "下面哪条命令可以把f1.txt复制为f2.txt（）
+       A、cat f1.txt > f2.txt            B、cp f1.txt | f2.txt
+       C、cat f1.txt | f2.txt            D、 copy f1.txt | f2.txt ", "answer": "B"},
+       {"question": "以下哪条命令在创建一个std用户的时候将用户加入到root组中（）
+       A、useradd -g std root        B、useradd -g root std
+       C、useradd root std       D、useradd -r root std ", "answer": "D"},
+        {"question": "在Linux下从后台启动进程，应在命令的结尾加上符号（）
+       A、 $           B、@             C、 #         D、 &", "answer": "C"},
+       {"question": "top命令的作用是（）
+       A、返回至顶层目录        B、关机        C、显示系统运行时间      D、显示系统当前运行状况", "answer": "D"},
+       {"question": "用命令ls  -al显示出文件aa的描述，由此可知文件aa的类型为（）
+       A、符号连接       B、硬连接        C、普通文件        D、目录", "answer": "C"},
+       {"question": "改变文件所有者的命令为（）
+       A、touch       B、chown        C、chmod        D、cat ", "answer": "B"},
+       {"question": "在给定文件中查找与设定条件相符字符串的命令为（）
+       A、sort        B、grep         C、find          D、gzip ", "answer": "B"},
+       {"question": "哪个命令可以将普通用户切换成超级用户（）
+       A、su　　      B、passwd　　   C、tar　　　     D、super ", "answer": "D"},
+       {"question": "建立一个新文件可以使用的命令为（）
+       A、chmod       B、more         C、cp            D、touch ", "answer": "D"},
+       {"question": "在下列命令中，不能显示文本文件内容的命令是（）
+       A、more        B、join         C、tail          D、less ", "answer": "B"},
+       {"question": "如果要列出一个目录下的所有文件需要使用命令行（）
+       A、ls –a　　  B、ls　　　     C、ls –l　　　 D、ls –d ", "answer": "C"},
+       {"question": "以下（）命令可正确显示shell环境变量PATH的值
+       A、echo  PATH B、cat  $path    C、cat  PATH D、echo  $PATH ", "answer": "D"},
+       {"question": "在vi编辑器里从编辑模式切换到命令模式需要按（）
+       A、Tab键            B、: 键      C、Esc键      D、F2键", "answer": "B"},
+       {"question": " Linux系统习惯上将许多设备驱动程序存储在（）目录中
+       A、/etc            B、/dev     C、/root     D、/boot ", "answer": "C"},
+       {"question": "一般情况下，挂载windows 分区后，发现中文都变成了乱码，可能原因是（）
+       A、字符编码不统一        B、文件损坏
+       C、该分区不能被使用       D、硬盘错误", "answer": "A"},
+       {"question": " Linux 下使用安全shell 登录远程主机的命令是哪个（）
+       A、ssh          B、bash          C、ksh        D、telnet ", "answer": "D"},
+       {"question": "当使用mount进行设备或者文件系统挂载的时候，需要用到的设备名称位于( )目录
+       A、/home　　　 B、/dev　　　 C、/mnt　　　 D、/etc ", "answer": "A"},
+       {"question": "下列Linux路径中属于相对路径的是（）
+       A、/tmp         B、tmp     C、.tmp        D、 ../tmp ", "answer": "B"},
+       {"question": "系统管理常用的二进制文件,一般放置在（）目录下
+       A、/usr/sbin    B、/root     C、/usr/bin   D、boot ", "answer": "C"},
+       {"question": "为了保证系统的安全，现在的LINUU系统一般将/etc/passwd密码文件加密后，保存在（）文件
+       A、/etc/group                   B、/etc/netgroup
+       C、/etc/libasafe.notify         D、/etc/shadow ", "answer": "D"},
+       {"question": "Linux系统中，程序运行有若干优先级，默认的优先级是（）
+       A、0        B、-5           C、10            D、19", "answer": "A"},
+       {"question": "如果需要新建一个用户green，其所属用户组的gid为505，可使用（  ）命令（）
+       A、# useradd green -p 505         B、# useradd green -R 505
+       C、# adduser green -d 505         D、# adduser green -g 505", "answer": "B"},
+       {"question": "如果以Apache为ＷＷＷ服务器，最重要的是（）配置文件
+       A、mime.types　　 B、httpd.conf
+       C、srm.conf　　　 D、access.conf ", "answer": "B"},
+       {"question": " Linux下使用安全shell登录远程主机的命令是哪个（）
+       A.ksh          B.bash          C.ssh           D.telnet ", "answer": "D"},
+       {"question": "下列变量名中有效的shell变量名是（）
+       A.-2-time      B.2$3           C.trust no 1     D.2004file ", "answer": "D"},
+       {"question": "关于Linux硬件支持描述，不正确的是（）
+       A.目前Linux还不能支持千M网卡   B.Linux下可以使用nvidia的显卡
+       C.Linux可以支持Modem           D.Linux可以使用打印机", "answer": "A"},
+       {"question": "一般情况下，挂载windows分区后，发现中文都变成了乱码，可能原因是（）
+       A.文件损坏     B.字符编码不统一  C.该分区不能被使用   D.硬盘错误", "answer": "B"},
+       {"question": "主机通过局域网直接接入internet,应该配置（）
+       A.IP地址        B.子网掩码      C.默认网关和dns服务器的IP地址    D.以上选项都是", "answer": "D"},
+       {"question": "www服务器是在internet上使用最为广泛，它采用的是（）结构
+       A.服务器/工作站     B.B/S     C.集中式    D.分布式", "answer": "A"},
+       {"question": "用命令ls -al显示出文件ff的描述如下所示，由此可知文件ff的类型为（） 。
+-rwxr-xr-- 1 root root 599 Cec 10 17:12 ff
+       A 普通文件     B 硬链接         C 目录         D 符号链接", "answer": "A"},
+       {"question": " DHCP是动态主机配置协议的简称，其作用是可以使网络管理员通过一台服务器来管理一个网络系统，自动地为一个网络中的主机分配（）地址
+       A 网络       B MAC            C TCP          D IP ", "answer": "D"},
+       {"question": "改变文件所有者的命令为（）
+       A chmod        B touch          C chown        D cat ", "answer": "C"},
+       {"question": "在使用匿名登录ftp时，用户名为（）
+       A users        B anonymous      C root         D guest ", "answer": "D"},
+       {"question": " Linux 文件名的长度不得超过( )个字符
+       A 64           B 128            C 256          D 512", "answer": "C"},
+       {"question": "从后台启动进程，应在命令的结尾加上符号（）
+       A &            B @              C #            D $", "answer": "D"},
+       {"question": " Web服务器Apache默认的接听连接端口号是（）
+       A 1024         B 800            C 80           D 8", "answer": "C"},
+       {"question": " Samba服务器的配置文件是（）
+       A httpd.conf     B inetd.conf      C rc.d      D smb.conf ", "answer": "D"},
+       {"question": "设超级用户root当前所在目录为：/usr/local，键入cd命令后，用户当前所在目录为（）
+       A /home        B /root          C /home/root   D /usr/local ", "answer": "B"},
+       {"question": "字符设备文件类型的标志是（）
+       A p            B c              C s           D l ", "answer": "C"},
+       {"question": " Linux支持的文件系统有（）
+       A.ext2         B.ext3           C.ReiserFS    D.以上均支持", "answer": "D"}
+]}
