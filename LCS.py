@@ -22,11 +22,13 @@ def main():
                 continue
             elif choice1 == "A":
                 while True:
-                    choice2 = raw_input("请选择困难程度 A（简单）、B（复杂）、C（困难）：")
-                    if choice2 != "A" and choice2 != "B" and choice2 != "C":
+                    choice2 = raw_input("请选择困难程度 A（简单）、B（复杂）、C（困难）、Q（退出）：")
+                    if choice2 != "A" and choice2 != "B" and choice2 != "C" and choice2 != "Q":
                         print "请输入正确选项！"
                         continue
                     break
+                if choice2 == "Q":
+                    continue
                 break
             else:
                 choice2 = ' '
@@ -35,8 +37,8 @@ def main():
             right, result, user_result = choice_test(choice2)
             print_result(right, result, user_result)
         elif choice1 == "B":
-            right1, right2, right3, result, user_result = auto_test()
-            print_autoresult(right1, right2, right3, result, user_result)
+            right1, right2, right3, num1, num2, num3, result, user_result = auto_test()
+            print_autoresult(right1, right2, right3, num1, num2, num3,  result, user_result)
         else:
             break
     print "非常感谢你的使用，希望你下次再用！"
@@ -94,6 +96,9 @@ def auto_test():
     right1 = 0
     right2 = 0
     right3 = 0
+    num1 = 0
+    num2 = 0
+    num3 = 0
     result = []
     user_result=[]
     question_dict  = load()
@@ -107,6 +112,12 @@ def auto_test():
                 break
             else:
                 print "请输入正确选项！"
+        if j<30:
+            num1 += 1
+        elif  29<j and j<60:
+            num2 +=1
+        else:
+            num3 +=1
         if answer == question_dict["questions"][j]["answer"]:
             if j<30:
                 right1 += 1
@@ -128,7 +139,7 @@ def auto_test():
             else:
                 j += 1
         k -= 1
-    return right1, right2, right3, result, user_result
+    return right1, right2, right3, num1, num2, num3, result, user_result
 
 def load():
     with open('data.json', "r+") as json_file:
@@ -147,14 +158,14 @@ def print_result(right, result, user_result):
     print '*********************************************************************'
 
 
-def print_autoresult(right1, right2, right3, result, user_result):
+def print_autoresult(right1, right2, right3, num1, num2, num3, result, user_result):
     print len(result)
     print len(user_result)
     print '*********************************************************************'
     print '*                                                                   *'
-    print '*     简单题正确率： %d/30                                           *' %(right1)
-    print '*     复杂题正确率： %d/30                                           *' %(right2)
-    print '*     困难题正确率： %d/30                                           *' %(right3)
+    print '*     简单题正确率： %2d/%2d                                          *' %(right1, num1)
+    print '*     复杂题正确率： %2d/%2d                                          *' %(right2, num2)
+    print '*     困难题正确率： %2d/%2d                                          *' %(right3, num3)
     print '*     正确答案 ：'+print_list(result).encode("utf-8") +'                     *'
     print '*     你的答案 ：'+print_list(user_result).encode("utf-8") +'                     *'
     print '*********************************************************************'
